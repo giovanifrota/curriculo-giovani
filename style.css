@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    width: 100vw;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 40vh;
+}
+p{
+    color: white;
+    text-align: justify;
+    padding:5px;
+    line-height: 30px;
+}
+h1{
+    color:#F8D33B;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+button{
+    background-color: #F8D33B;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+}
+hr{
+   border: 1px solid #F8D33B;
+   height: 0vh;
+}
+img{
+    width: 15vw;
+    height: 35vh;
+    padding: 30px;
+    position: relative;
+    left: 200px;
+}
+footer{
+    background-color: #2E2E2E;
+}
+.educacao{
+    background-color: #2E2E2E;
+    height: 55%;
+}
+.experiencia{
+    background-color: black;
+}
+.vertical{
+    width: 0vw;
+    height: 360px;
+    position: relative;
+    left: 195px;
+    bottom: 308px;
+}
+.esquerda{
+    text-align: left;
+    padding: 5px;
+}
+.paragrafo-central{
+    text-align: center;
+}
+.cursos{
+    position: relative;
+    bottom: 650px;
+    padding:5px;
+    color: #F8D33B;
+}
+.lista{
+    position: relative;
+    bottom: 650px;
+    text-align: center;
+    color: white;
+}
+.primeiro-botao{
+    position: relative;
+    top: 40px;
+    left: 420px;
+}
+.segundo-botao{
+    position: relative;
+    bottom: 180px;
+    left: 420px;
+}
+.terceiro-botao{
+    position: relative;
+    bottom: 340px;
+    left: 420px;
+}
