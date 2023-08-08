@@ -101,7 +101,7 @@ footer{
 }
 @media screen and (max-width:500px) and (orientation: portrait){
     header{
-        height: 55vh;
+        height: 40vh;
     }
     p{
         line-height: 20px;
