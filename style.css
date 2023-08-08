@@ -99,3 +99,55 @@ footer{
     bottom: 340px;
     left: 420px;
 }
+@media screen and (max-width:600px) and (orientation: portrait){
+    p{
+        line-height: 20px;
+    }
+    button{
+        width:300px;
+    }
+    img{
+        left: 5px;
+        width: 30vw;
+        height: 20vh;
+        padding: 15px;
+    }
+    ul{
+        list-style-type: none;
+    }
+    p{
+        text-align: center;
+    }
+    .educacao{
+        height: 72%;
+    }
+    .cursos{
+        bottom:250px;
+        text-align: center;
+    }
+    .esquerda{
+        text-align: center;
+    }
+    .lista{
+        bottom:250px;
+        text-align: center;
+    }
+    .vertical{
+        bottom:250px;
+        height: 300px;
+        border: none;
+
+    }
+    .primeiro-botao{
+        left:55px;
+        top:0;
+    }
+    .segundo-botao{
+        left:55px;
+        bottom:230px;
+    }
+    .terceiro-botao{
+        left:55px;
+        bottom: 0;
+    }
+}
