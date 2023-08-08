@@ -99,12 +99,16 @@ footer{
     bottom: 340px;
     left: 420px;
 }
-@media screen and (max-width:700px) and (orientation: portrait){
+@media screen and (max-width:500px) and (orientation: portrait){
+    header{
+        height: 55vh;
+    }
     p{
         line-height: 20px;
     }
     button{
         width:300px;
+        opacity: 0;
     }
     img{
         left: 5px;
@@ -122,14 +126,14 @@ footer{
         height: 72%;
     }
     .cursos{
-        bottom:250px;
+        bottom:290px;
         text-align: center;
     }
     .esquerda{
         text-align: center;
     }
     .lista{
-        bottom:250px;
+        bottom:290px;
         text-align: center;
     }
     .vertical{
@@ -139,15 +143,18 @@ footer{
 
     }
     .primeiro-botao{
-        left:55px;
-        top:0;
+        width: 200px;
+        left:85px;
+        top:5px;
     }
     .segundo-botao{
-        left:55px;
+        width: 200px;
+        left:80px;
         bottom:230px;
     }
     .terceiro-botao{
-        left:55px;
+        width: 200px;
+        left:80px;
         bottom: 0;
     }
 }
