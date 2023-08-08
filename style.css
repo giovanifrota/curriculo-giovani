@@ -91,12 +91,12 @@ footer{
 }
 .segundo-botao{
     position: relative;
-    bottom: 230px;
+    bottom: 160px;
     left: 420px;
 }
 .terceiro-botao{
     position: relative;
-    bottom: 340px;
+    bottom: 400px;
     left: 420px;
 }
 @media screen and (max-width:500px) and (orientation: portrait){
